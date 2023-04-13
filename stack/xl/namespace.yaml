@@ -3,5 +3,9 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: observe
+  namespace: observe
   labels:
     observeinc.com/component: stack
+  annotations:
+    observeinc.com/cluster-name: ${cluster_name}
+    
