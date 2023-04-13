@@ -8,5 +8,5 @@ metadata:
     observeinc.com/component: stack
   annotations:
     name: observe
-    observeinc.com/cluster-name: ${cluster_name}
+    observeinc.com/cluster-name: dev-us-east-1
     
