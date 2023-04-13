@@ -7,5 +7,6 @@ metadata:
   labels:
     observeinc.com/component: stack
   annotations:
+    name: observe
     observeinc.com/cluster-name: ${cluster_name}
     
